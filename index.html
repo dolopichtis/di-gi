@@ -12,159 +12,171 @@
 
 	<section class="header">
 		<section class="logo"></section>
-		<button class="menu_button"></button>
-	</section>
-	<section class="intro">
-		<h1 class="main title header">Мисли глобально</h1>
-		<h4 class="main title text">Di Gi - це диджитал агенція повного циклу, спрямоване на найкращий результат наших клієнтів в маркетингу, продажах та керуванні</h4>
-		<button class="ganeral button">Детально</button>
-		<a class="side button left"></a>
-		<a class="side button right"></a>
-		<div class="slide indicator">
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
+		<div class="menu" id="home">
+			<input id="menu_toggle" type="checkbox"/>
+			<label class="menu_btn" for="menu_toggle">
+				<span></span>
+			</label>
+			<ul class="menu_box">
+				<li><a class="menu_item" href="#home">Home</a></li>
+				<li><a class="menu_item" href="#promo">Promo</a></li>
+				<li><a class="menu_item" href="#services">Services</a></li>
+				<li><a class="menu_item" href="#recent_work">Recent Work</a></li>
+				<li><a class="menu_item" href="#video_block">Video Block</a></li>
+				<li><a class="menu_item" href="#latest_news">Latest News</a></li>
+				<li><a class="menu_item" href="#testimonial">Testimonial</a></li>
+				<li><a class="menu_item" href="#contacts">Contacts</a></li>
+			</ul>
 		</div>
 	</section>
-	<section class="promo">
+	<section class="intro">
+		<div class="main_carusel">
+			<img src="images/carusel.jpg">
+			<h1 class="main title header">Мисли глобально</h1>
+			<h4 class="main title text">Di Gi - це диджитал агенція повного циклу, спрямоване на найкращий результат наших клієнтів в маркетингу, продажах та керуванні</h4>
+			<button class="ganeral button">Детально</button>
+			<a class="side button left"></a>
+			<a class="side button right"></a>
+			<div class="slide indicator">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
+		</div>
+	</section>
+	<section class="promo" id="promo">
 		<h4>Ви полюбите нас з першої зустрічі</h4>
 		<h6>Ми надаємо комплексний підхід до просування компанії, продуктів та послуг в цифровій сфері</h6>
 		<button class="general button white">Передзвоніть мені</button>
 	</section>
-	<section class="services">
+	<section class="services" id="services">
 		<h2>Сервіс</h2>
 		<hr class="blue" style="width:50px; border-top:10px solid;">
 		<h4>Від ідеї до незабутнього і вимірюваного результату</h4>
 		<h5>Інтеграція бездоганного виробництва, передових технологій та ретельного вимірювання продуктивності</h5>
 		<div class="cards">
 			<div class="card">
-				<img scr="">
+				<img src="images/strategy.svg">
 				<h4>Стратегія</h4>
 			</div>
 
 			<div class="card">
-				<img scr="">
+				<img src="images/analysis.svg" alt="analysis icon SVG"/>
 				<h4>Аналіз</h4>
 			</div>
 
 			<div class="card">
-				<img scr="">
+				<img src="images/soc-media.svg" alt="soc media SVG"/>
 				<h4>Соц мережі</h4>
 			</div>
 
 			<div class="card">
-				<img scr="">
+				<img src="images/development.svg">
 				<h4>Розвиток</h4>
 			</div>
 
 			<div class="card">
-				<img scr="">
+				<img src="images/content.svg">
 				<h4>Контент</h4>
 			</div>
 
 			<div class="card">
-				<img scr="">
+				<img src="images/design.svg">
 				<h4>Дизайн UX</h4>
 			</div>
 
 			<div class="card">
-				<img scr="">
+				<img src="images/advertising.svg">
 				<h4>Таргетована реклама</h4>
 			</div>
 
 			<div class="card">
-				<img scr="">
+				<img src="images/product.svg">
 				<h4>Продукт</h4>
 			</div>
 
 		</div>
 	</section>
-	<section class="recent_work">
+	<section class="recent_work" id="recent_work">
 		<h2>Наши проекти</h2>
 		<hr class="white" style="width:50px; border-top:10px solid;">
 		<div class="conteiner">
-			<img src="">
+			<img src="images/lalique.jpg">
 			<h6>Lalique бутік</h6>
 		</div>
 		<div class="conteiner">
-			<img src="">
+			<img src="images/building.jpg">
 			<h6>Будівництво будинків</h6>
 		</div>
 		<div class="conteiner">
-			<img src="">
+			<img src="images/coffe.jpg">
 			<h6>Кав'ярня</h6>
 		</div>
 		<div class="conteiner">
-			<img src="">
+			<img src="images/toures.jpg">
 			<h6>Унікальні тури</h6>
 		</div>
 	</section>
-	<section class="video_block">
-		<img src="">
+	<section class="video_block" id="video_block">
+		<img src="images/video-preview.jpg">
 		<h2>Команда</h2>
 		<hr class="blue" style="width:50px; border-top:10px solid;">
 		<h5>Наша команда - це наша найбільша цінність. Ми працювали, щоб зібрати групу експертів, чиї навики доповнюють один одного. У членів нашої команди різні історії, але ми поділяємо загальну пристрасть до ідеалу. Ми віримо, щоб залишатися професіоналом, необхідно розвиватися, тому ми постійно шукаємо способи, як стати краще в тому, що ми робимо.</h5>
 		<button>Дивитися відео</button>
 	</section>
-	<section class="larest_news">
+	<section class="latest_news" id="latest_news">
 		<h2>Останні новини</h2>
 		<hr class="blue" style="width:50px; border-top:10px solid;">
 		<div class="conteiner">
-			<img src="">
+			<img src="images/3d-rebrending.jpg">
 			<div class="news-text-box">
 				<h6>3D у брендингу</h6>
 			</div>
 		</div>
 		<div class="conteiner">
-			<img src="">
-			<div class="news-text-box">
-				<h6>Унікальний дизайн</h6>
-			</div>
-		</div>
-		<div class="conteiner">
-			<img src="">
+			<img src="images/ads.jpg">
 			<div class="news-text-box">
 				<h6>Контекстна реклама</h6>
 			</div>
 		</div>
 		<div class="conteiner">
-			<img src="">
+			<img src="images/graphics.jpg">
 			<div class="news-text-box">
 				<h6>Графіка</h6>
 			</div>
 		</div>
 		<div class="conteiner">
-			<img src="">
+			<img src="images/culture.jpg">
 			<div class="news-text-box">
 				<h6>Корпоративна культура</h6>
 			</div>
 		</div>
 		<div class="conteiner">
-			<img src="">
+			<img src="images/unique-design.jpg">
 			<div class="news-text-box">
 				<h6>Унікальний дизайн</h6>
 			</div>
 		</div>
 		<div class="conteiner">
-			<img src="">
+			<img src="images/view.jpg">
 			<div class="news-text-box">
 				<h6>Погляд з боку</h6>
 			</div>
 		</div>
 		<div class="conteiner">
-			<img src="">
+			<img src="images/soc-media.jpg">
 			<div class="news-text-box">
 				<h6>Соц мережі та їх користь</h6>
 			</div>
 		</div>
 		<div class="conteiner">
-			<img src="">
+			<img src="images/exclusive.jpg">
 			<div class="news-text-box">
 				<h6>Ексклюзивність</h6>
 			</div>
 		</div>
 
-	<section class="testimonial">
+	<section class="testimonial" id="testimonial">
 		<h1>"</h1>
 		<blockquote>
 			Якщо потрібно створювати або підвищувати імідж компанії, то <strong>діджитал-маркетинг</strong> є таким, що підходить найкраще
@@ -176,18 +188,46 @@
 			<span class="dot"></span>
 		</div>
 	</section>
-	<section class="footer">
+	<section class="footer" id="contacts">
 		<div class="logo">Di Gi<br>digital agency</div>
 			<h4>Ми б хотіли почути все про ваш проект. Зв'яжіться з нами</h4>
 		<ul>
-			<li><img src="facebook.logo"></li>
-			<li><img src="google.logo"></li>
-			<li><img src="twiter.logo"></li>
-			<li><img src="pinterest.logo"></li>
+			<li><img src="images/facebook-logo.svg"></li>
+			<li><img src="images/google-logo.svg"></li>
+			<li><img src="images/twiter-logo.svg"></li>
+			<li><img src="images/pinterest-logo.svg"></li>
 		</ul>
 		<address class="contacts">
 			<ul>
-				<li>Контакти
+				<li>
+					<h4>Контакти</h4>
+					<ul>
+						<li><a href="tel:+80 555 55 66">+80 555 55 66</a></li>
+						<li><a href="mailto:digi@gmail.com">digi@gmail.com</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4>Адреса</h4>
+					<a href="http://maps.google.com/?q=Україна Київ проспект науки 107">Пр. Науки 107<br>Київ/Україна</a>
+				</li>
+				<li>
+					<h4>Допомога</h4>
+					<ul>
+						<li><a href="#promo">Як з нами зв'язатися?</a></li>
+						<li><a href="#home">Що таке діджитал?</a></li>
+						<li><a href="#promo">Вартість послуг</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4>Меню</h4>
+					<ul>
+						<li><a href="#recent_work">Наші проекти</a></li>
+						<li><a href="#video_block">Команда</a></li>
+						<li><a href="#latest_news">Блог</a></li>
+					</ul>
+				</li>
+			</ul>
+
 		
 	</section>
 
