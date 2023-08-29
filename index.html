@@ -4,19 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Di Gi digital agency</title>
+  <link rel="icon" type="image/x-icon" href="images/logo/favicon(animated).ico">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 	<section class="header">
-		<section class="logo"></section>
+
+		<div class="logo">DiGi<h6>digital agency</h6></div>
+
 		<div class="menu" id="home">
 			<input id="menu_toggle" type="checkbox"/>
+
 			<label class="menu_btn" for="menu_toggle">
 				<span></span>
 			</label>
+
 			<ul class="menu_box">
 				<li><a class="menu_item" href="#home">Home</a></li>
 				<li><a class="menu_item" href="#promo">Promo</a></li>
@@ -29,9 +34,10 @@
 			</ul>
 		</div>
 	</section>
+
 	<section class="intro">
 		<div class="main_carusel">
-			<img src="images/carusel.jpg">
+			<img src="images/carusel.jpg" alt="DiGi reklama">
 			<h1 class="main title header">Мисли глобально</h1>
 			<h4 class="main title text">Di Gi - це диджитал агенція повного циклу, спрямоване на найкращий результат наших клієнтів в маркетингу, продажах та керуванні</h4>
 			<button class="ganeral button">Детально</button>
@@ -44,11 +50,15 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="promo" id="promo">
-		<h4>Ви полюбите нас з першої зустрічі</h4>
-		<h6>Ми надаємо комплексний підхід до просування компанії, продуктів та послуг в цифровій сфері</h6>
-		<button class="general button white">Передзвоніть мені</button>
+		<div class="container">
+			<h4>Ви полюбите нас з першої зустрічі</h4>
+			<h6>Ми надаємо комплексний підхід до просування компанії, продуктів та послуг в цифровій сфері</h6>
+			<button class="general button white">Передзвоніть мені</button>
+		</div>
 	</section>
+
 	<section class="services" id="services">
 		<h2>Сервіс</h2>
 		<hr class="blue" style="width:50px; border-top:10px solid;">
@@ -56,7 +66,7 @@
 		<h5>Інтеграція бездоганного виробництва, передових технологій та ретельного вимірювання продуктивності</h5>
 		<div class="cards">
 			<div class="card">
-				<img src="images/strategy.svg">
+				<img src="images/strategy.svg" alt="strategy logo SVG">
 				<h4>Стратегія</h4>
 			</div>
 
@@ -71,164 +81,195 @@
 			</div>
 
 			<div class="card">
-				<img src="images/development.svg">
+				<img src="images/development.svg" alt="development logo SVG">
 				<h4>Розвиток</h4>
 			</div>
 
 			<div class="card">
-				<img src="images/content.svg">
+				<img src="images/content.svg" alt="content logo SVG">
 				<h4>Контент</h4>
 			</div>
 
 			<div class="card">
-				<img src="images/design.svg">
+				<img src="images/design.svg" alt="design logo SVG">
 				<h4>Дизайн UX</h4>
 			</div>
 
 			<div class="card">
-				<img src="images/advertising.svg">
+				<img src="images/advertising.svg" alt="ads logo SVG">
 				<h4>Таргетована реклама</h4>
 			</div>
 
 			<div class="card">
-				<img src="images/product.svg">
+				<img src="images/product.svg" alt="product logo SVG">
 				<h4>Продукт</h4>
 			</div>
 
 		</div>
 	</section>
+
 	<section class="recent_work" id="recent_work">
-		<h2>Наши проекти</h2>
-		<hr class="white" style="width:50px; border-top:10px solid;">
-		<div class="conteiner">
-			<img src="images/lalique.jpg">
-			<h6>Lalique бутік</h6>
-		</div>
-		<div class="conteiner">
-			<img src="images/building.jpg">
-			<h6>Будівництво будинків</h6>
-		</div>
-		<div class="conteiner">
-			<img src="images/coffe.jpg">
-			<h6>Кав'ярня</h6>
-		</div>
-		<div class="conteiner">
-			<img src="images/toures.jpg">
-			<h6>Унікальні тури</h6>
+		<div class="container">
+			<h2>Наши проекти</h2>
+			<hr class="white" style="width:50px; border-top:10px solid;">
+			<div class="card-conteiner">
+				<img src="images/lalique.jpg" alt="lalique boutique img JPG">
+				<h6>Lalique бутік</h6>
+			</div>
+
+			<div class="card-conteiner">
+				<img src="images/building.jpg" alt="new building img JPG">
+				<h6>Будівництво будинків</h6>
+			</div>
+
+			<div class="card-conteiner">
+				<img src="images/coffe.jpg" alt="coffe shop img JPG">
+				<h6>Кав'ярня</h6>
+			</div>
+
+			<div class="card-conteiner">
+				<img src="images/tour.jpg" alt="tour img JPG">
+				<h6>Унікальні тури</h6>
+			</div>
+
 		</div>
 	</section>
+
 	<section class="video_block" id="video_block">
-		<img src="images/video-preview.jpg">
-		<h2>Команда</h2>
-		<hr class="blue" style="width:50px; border-top:10px solid;">
-		<h5>Наша команда - це наша найбільша цінність. Ми працювали, щоб зібрати групу експертів, чиї навики доповнюють один одного. У членів нашої команди різні історії, але ми поділяємо загальну пристрасть до ідеалу. Ми віримо, щоб залишатися професіоналом, необхідно розвиватися, тому ми постійно шукаємо способи, як стати краще в тому, що ми робимо.</h5>
-		<button>Дивитися відео</button>
+		<div class="container">
+			<img src="images/video-preview.jpg" alt="our people video preview JPG">
+			<h2>Команда</h2>
+			<hr class="blue" style="width:50px; border-top:10px solid;">
+			<h5>Наша команда - це наша найбільша цінність. Ми працювали, щоб зібрати групу експертів, чиї навики доповнюють один одного. У членів нашої команди різні історії, але ми поділяємо загальну пристрасть до ідеалу. Ми віримо, щоб залишатися професіоналом, необхідно розвиватися, тому ми постійно шукаємо способи, як стати краще в тому, що ми робимо.</h5>
+			<button>Дивитися відео</button>
+		</div>
 	</section>
+
 	<section class="latest_news" id="latest_news">
-		<h2>Останні новини</h2>
-		<hr class="blue" style="width:50px; border-top:10px solid;">
-		<div class="conteiner">
-			<img src="images/3d-rebrending.jpg">
-			<div class="news-text-box">
-				<h6>3D у брендингу</h6>
+		<div class="container">
+			<h2>Останні новини</h2>
+			<hr class="blue" style="width:50px; border-top:10px solid;">
+			<div class="conteiner">
+				<img src="images/3d-rebrending.jpg" alt="3d brands JPG">
+				<div class="news-text-box">
+					<h6>3D у брендингу</h6>
+				</div>
 			</div>
-		</div>
-		<div class="conteiner">
-			<img src="images/ads.jpg">
-			<div class="news-text-box">
-				<h6>Контекстна реклама</h6>
+			
+			<div class="conteiner">
+				<img src="images/ads.jpg" alt="ads JPG">
+				<div class="news-text-box">
+					<h6>Контекстна реклама</h6>
+				</div>
 			</div>
-		</div>
-		<div class="conteiner">
-			<img src="images/graphics.jpg">
-			<div class="news-text-box">
-				<h6>Графіка</h6>
+			
+			<div class="conteiner">
+				<img src="images/graphics.jpg" alt="digital graphics img JPG">
+				<div class="news-text-box">
+					<h6>Графіка</h6>
+				</div>
 			</div>
-		</div>
-		<div class="conteiner">
-			<img src="images/culture.jpg">
-			<div class="news-text-box">
-				<h6>Корпоративна культура</h6>
+			
+			<div class="conteiner">
+				<img src="images/culture.jpg" alt="mass culture img JPG">
+				<div class="news-text-box">
+					<h6>Корпоративна культура</h6>
+				</div>
 			</div>
-		</div>
-		<div class="conteiner">
-			<img src="images/unique-design.jpg">
-			<div class="news-text-box">
-				<h6>Унікальний дизайн</h6>
+			
+			<div class="conteiner">
+				<img src="images/unique-design.jpg" alt="uniq design img JPG">
+				<div class="news-text-box">
+					<h6>Унікальний дизайн</h6>
+				</div>
 			</div>
-		</div>
-		<div class="conteiner">
-			<img src="images/view.jpg">
-			<div class="news-text-box">
-				<h6>Погляд з боку</h6>
+			
+			<div class="conteiner">
+				<img src="images/view.jpg" alt="review from other people img JPG">
+				<div class="news-text-box">
+					<h6>Погляд з боку</h6>
+				</div>
 			</div>
-		</div>
-		<div class="conteiner">
-			<img src="images/soc-media.jpg">
-			<div class="news-text-box">
-				<h6>Соц мережі та їх користь</h6>
+			
+			<div class="conteiner">
+				<img src="images/soc-media.jpg" alt="social media img JPG">
+				<div class="news-text-box">
+					<h6>Соц мережі та їх користь</h6>
+				</div>
 			</div>
-		</div>
-		<div class="conteiner">
-			<img src="images/exclusive.jpg">
-			<div class="news-text-box">
-				<h6>Ексклюзивність</h6>
+			
+			<div class="conteiner">
+				<img src="images/exclusive.jpg" alt="exclusive solution img JPG">
+				<div class="news-text-box">
+					<h6>Ексклюзивність</h6>
+				</div>
 			</div>
-		</div>
+		</div>	
+	</section>
 
 	<section class="testimonial" id="testimonial">
-		<h1>"</h1>
-		<blockquote>
-			Якщо потрібно створювати або підвищувати імідж компанії, то <strong>діджитал-маркетинг</strong> є таким, що підходить найкраще
-		</blockquote>
-		<cite>-Маргарита Акулич</cite>
-		<div class="slide-indicator">
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
+		<div class="container">
+			<h1>"</h1>
+			<blockquote>
+				Якщо потрібно створювати або підвищувати імідж компанії, то <strong>діджитал-маркетинг</strong> є таким, що підходить найкраще
+			</blockquote>
+			<cite>-Маргарита Акулич</cite>
+			<div class="slide-indicator">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
 		</div>
 	</section>
+
 	<section class="footer" id="contacts">
-		<div class="logo">Di Gi<br>digital agency</div>
-			<h4>Ми б хотіли почути все про ваш проект. Зв'яжіться з нами</h4>
-		<ul>
-			<li><img src="images/facebook-logo.svg"></li>
-			<li><img src="images/google-logo.svg"></li>
-			<li><img src="images/twiter-logo.svg"></li>
-			<li><img src="images/pinterest-logo.svg"></li>
-		</ul>
-		<address class="contacts">
+
+		<div class="container">
+			<div class="logo">Di Gi<br>digital agency</div>
+			<h4>Ми б хотіли почути все про ваш проект.<br> Зв'яжіться з нами</h4>
 			<ul>
-				<li>
-					<h4>Контакти</h4>
-					<ul>
-						<li><a href="tel:+80 555 55 66">+80 555 55 66</a></li>
-						<li><a href="mailto:digi@gmail.com">digi@gmail.com</a></li>
-					</ul>
-				</li>
-				<li>
-					<h4>Адреса</h4>
-					<a href="http://maps.google.com/?q=Україна Київ проспект науки 107">Пр. Науки 107<br>Київ/Україна</a>
-				</li>
-				<li>
-					<h4>Допомога</h4>
-					<ul>
-						<li><a href="#promo">Як з нами зв'язатися?</a></li>
-						<li><a href="#home">Що таке діджитал?</a></li>
-						<li><a href="#promo">Вартість послуг</a></li>
-					</ul>
-				</li>
-				<li>
-					<h4>Меню</h4>
-					<ul>
-						<li><a href="#recent_work">Наші проекти</a></li>
-						<li><a href="#video_block">Команда</a></li>
-						<li><a href="#latest_news">Блог</a></li>
-					</ul>
-				</li>
+				<li><a href="http://facebook.com"><img src="images/facebook-logo.svg" alt="facebook link logo"></a></li>
+				<li><a href="http://google.com"><img src="images/google-logo.svg" alt="google link logo"></a></li>
+				<li><a href="http://twitter.com"><img src="images/twitter-logo.svg" alt="twitter link logo"></a></li>
+				<li><a href="http://pinterest.com"><img src="images/pinterest-logo.svg" alt="pinterest link logo"></a></li>
 			</ul>
 
-		
+			<address class="contacts">
+				<ul>
+					<li>
+						<h4>Контакти</h4>
+						<ul>
+							<li><a href="tel:+80 555 55 66">+80 555 55 66</a></li>
+							<li><a href="mailto:digi@gmail.com">digi@gmail.com</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>Адреса</h4>
+						<a href="http://maps.google.com/?q=Україна Київ проспект науки 107">Пр. Науки 107<br>Київ/Україна</a>
+					</li>
+					<li>
+						<h4>Допомога</h4>
+						<ul>
+							<li><a href="#promo">Як з нами зв'язатися?</a></li>
+							<li><a href="#home">Що таке діджитал?</a></li>
+							<li><a href="#promo">Вартість послуг</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>Меню</h4>
+						<ul>
+							<li><a href="#recent_work">Наші проекти</a></li>
+							<li><a href="#video_block">Команда</a></li>
+							<li><a href="#latest_news">Блог</a></li>
+						</ul>
+					</li>
+				</ul>
+		</div>
+
+		<div class="scrollup">
+			<a href="#top">Вгору</a>
+		</div>
+
 	</section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

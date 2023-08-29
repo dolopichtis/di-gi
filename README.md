@@ -1,2 +1,2 @@
 # di-gi
-html/css layout practice (figma to html)
+educational project - html/css layout practice (figma to html)
