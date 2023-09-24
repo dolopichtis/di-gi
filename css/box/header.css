@@ -1,0 +1,21 @@
+
+.header{
+	background-color:#2B4074;
+	height: 100px;
+}
+.logo{
+	font-family: var(--header-font);
+	padding-top: 17px;
+	width: 100px;
+	height:66px;
+	text-align: center;
+}
+.logo > p {
+	margin: 0;
+	font-weight: normal;
+}
+.logo > h2 {
+	margin: 0;
+	font-weight: normal;
+	height: 48px;
+}

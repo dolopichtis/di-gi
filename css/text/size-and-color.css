@@ -1,0 +1,81 @@
+
+body {
+	font-family: var(--base-font);
+	font-weight: var(--base-font-weight);
+	color: white;
+}
+h1 {
+	font-size: 96px;
+	font-family: var(--header-font);
+	font-weight: var(--base-font-weight);
+}
+h2 {
+	font-size: 48px;
+	font-weight: var(--base-font-weight);
+}
+h3 {
+	font-size: 36px;
+}
+h4 {
+	font-size: 24px;
+	font-weight: var(--base-font-weight);
+}
+.note_text, .roboto {
+	font-family: var(--roboto-font);
+}
+.hover_text {
+	font-weight: var(--scnd-font-weight);
+}
+.scnd {
+	font-family: var(--roboto-font);
+	font-weight: var(--scnd-font-weight);
+}
+.p-text {
+	font-family: var(--p-text-font);
+	font-weight: var(--p-font-weight);
+}
+h5 {
+	font-size: 18px;
+	font-weight: var(--base-font-weight);
+}
+.button_details {
+	font-weight: var(--acent-font-weight);
+	color: rgba(43, 64, 116, 1);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+h6 {
+	font-size: 16px;
+	font-weight: var(--acent-font-weight);
+}
+p {
+	font-size: 12px;
+}
+.blue_text, strong {
+	color: rgba(43, 64, 116, 1);
+}
+.base_text {
+	color: rgba(74, 74, 74, 1);
+	font-weight: var(--acent-font-weight);
+}
+.note_text {
+	color: rgba(155, 155, 155, 1);
+}
+.text {
+	color:rgba(121, 121, 121, 1);
+}
+button, .uppercase, .scrollup {
+	text-transform: uppercase;
+}
+.contacts h4, button, .news:hover h6 {
+	color:rgba(249, 246, 229, 1);
+}
+blockquote{
+	font-size: 36px;
+}
+cite {
+	font-size: 24px;
+}
+.contacts h4 {
+	font-weight: var(--acent-font-weight);
+}

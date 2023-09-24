@@ -1,0 +1,9 @@
+.video_block .container {
+	display: flex;
+	margin: auto;
+}
+.video_block {
+	margin-top: -80px;
+	background: white;
+	height: 580px;
+}

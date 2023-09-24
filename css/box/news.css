@@ -1,0 +1,8 @@
+.latest_news {
+	background:rgba(249, 246, 229, 1);
+	height: 1044px;
+}
+.news:hover .news-text-box {
+	background: rgba(74, 74, 74, 1);
+	width: 270px;
+}

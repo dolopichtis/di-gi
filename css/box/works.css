@@ -1,0 +1,11 @@
+.recent_work {
+	background-image: linear-gradient(rgba(43, 64, 116, 1), rgba(43, 64, 116, 0));
+	height: 668px;
+}
+.recent_work h2 {
+	text-align: center;
+	margin: auto;
+}
+.recent_work .container {
+	display: flex;
+}

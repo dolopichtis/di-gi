@@ -11,161 +11,194 @@
 		<link rel="icon" type="image/x-icon" href="images/logo/favicon(animated).ico">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="stylesheet" href="css/var.css">
+		<link rel="stylesheet" href="css/text/size-and-color.css">
+		<link rel="stylesheet" href="css/box/header.css">
+		<link rel="stylesheet" href="css/box/menu.css">
+		<link rel="stylesheet" href="css/box/intro.css">
+		<link rel="stylesheet" href="css/box/promo.css">
+		<link rel="stylesheet" href="css/box/services.css">
+		<link rel="stylesheet" href="css/box/works.css">
+		<link rel="stylesheet" href="css/box/video.css">
+		<link rel="stylesheet" href="css/box/news.css">
+		<link rel="stylesheet" href="css/box/testimonial.css">
+		<link rel="stylesheet" href="css/box/footer.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Tulpen+One&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<div class="height-container">
+			<section class="header">
+				<div class="container">
+					<div class="logo">
+						<h2>Di Gi</h2>
+						<p>digital agency</p>
+					</div>
 
-		<section class="header">
-			<div class="container">
-				<div class="logo">
-					<h2>Di Gi</h2>
-					<p>digital agency</p>
+					<nav class="menu" id="home">
+						<input id="menu_toggle" type="checkbox"/>
+
+						<label class="menu_btn" for="menu_toggle">
+							<span></span>
+						</label>
+
+						<ul class="menu_box">
+							<li><a class="menu_item" href="#home">Home</a></li>
+							<li><a class="menu_item" href="#promo">Promo</a></li>
+							<li><a class="menu_item" href="#services">Services</a></li>
+							<li><a class="menu_item" href="#recent_work">Recent Work</a></li>
+							<li><a class="menu_item" href="#video_block">Video Block</a></li>
+							<li><a class="menu_item" href="#latest_news">Latest News</a></li>
+							<li><a class="menu_item" href="#testimonial">Testimonial</a></li>
+							<li><a class="menu_item" href="#contacts">Contacts</a></li>
+						</ul>
+					</nav>
 				</div>
+			</section>
 
-				<div class="menu" id="home">
-					<input id="menu_toggle" type="checkbox"/>
+			<section class="intro">
+				<ul class="carusel">
+					<li class="carusel">
+						<picture class="carusel-img">
+							<source srcset="images/carusel-1-midi.jpg" media="(max-width: 600px)">
+							<source srcset="images/carusel-1-max.jpg" media="(max-width: 1500px)">
+							<source srcset="images/carusel-1-mini.jpg">
+							<img src="images/carusel-1-max.jpg" style="width:100%;height:668px" alt="DiGi reklama">
+						</picture>
+						<h1 class="carusel-title">Мисли глобально</h1>
+						<h4 class="carusel-text">Di Gi - це диджитал агенція повного циклу, спрямоване на найкращий результат наших клієнтів в маркетингу, продажах та керуванні</h4>
+					</li>
+					<li class="carusel">
+						<picture class="carusel-img">
+							<source srcset="images/carusel-2-midi.jpg" media="(max-width: 600px)">
+							<source srcset="images/carusel-2-max.jpg" media="(max-width: 1500px)">
+							<source srcset="images/carusel-2-mini.jpg">
+							<img src="images/carusel-2-max.jpg" style="width:100%;height:668px" alt="DiGi reklama">
+						</picture>
+						<h1 class="carusel-title">Широкий погляд</h1>
+						<h4 class="carusel-text">Di Gi - це диджитал агенція повного циклу, спрямоване на найкращий результат наших клієнтів в маркетингу, продажах та керуванні</h4>
+					</li>
+					<li class="carusel">
+						<picture>
+							<source srcset="images/carusel-3-midi.jpg" media="(max-width: 600px)">
+							<source srcset="images/carusel-3-max.jpg" media="(max-width: 1500px)">
+							<source srcset="images/carusel-3-mini.jpg">
+							<img src="images/carusel-3-max.jpg" style="width:100%;height:668px" alt="DiGi reklama">
+						</picture>
+						<h1 class="carusel-title">Зухвала стратегія</h1>
+						<h4 class="carusel-text">Di Gi - це диджитал агенція повного циклу, спрямоване на найкращий результат наших клієнтів в маркетингу, продажах та керуванні</h4>
+					</li>
+					<button>Детально</button>
+					<button class="side-button left" type="image"><img class="btn-img" src="images/logo/forward.svg"/></button>
+					<button class="side-button right"><img class="btn-img" src="images/logo/back.svg"/></button>
+					<div class="slide indicator">
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+					</div>
+				</ul>
+			</section>
 
-					<label class="menu_btn" for="menu_toggle">
-						<span></span>
-					</label>
-
-					<ul class="menu_box">
-						<li><a class="menu_item" href="#home">Home</a></li>
-						<li><a class="menu_item" href="#promo">Promo</a></li>
-						<li><a class="menu_item" href="#services">Services</a></li>
-						<li><a class="menu_item" href="#recent_work">Recent Work</a></li>
-						<li><a class="menu_item" href="#video_block">Video Block</a></li>
-						<li><a class="menu_item" href="#latest_news">Latest News</a></li>
-						<li><a class="menu_item" href="#testimonial">Testimonial</a></li>
-						<li><a class="menu_item" href="#contacts">Contacts</a></li>
-					</ul>
+			<section class="promo" id="promo">
+				<div class="container">
+					<h4 class="scnd">Ви полюбите нас з першої зустрічі</h4>
+					<h6 class="p-text">Ми надаємо комплексний підхід до просування компанії, продуктів та послуг в цифровій сфері</h6>
+					<button class="white blue_text">Передзвоніть мені</button>
 				</div>
-			</div>
-		</section>
-
-		<section class="intro">
-			<div class="main_carusel">
-				<picture>
-					<source srcset="images/carusel-1-midi.jpg" media="(max-width: 600px)">
-					<source srcset="images/carusel-1-max.jpg" media="(max-width: 1500px)">
-					<source srcset="images/carusel-1-mini.jpg">
-					<img src="images/carusel-1-max.jpg" style="width:1440px;height:668px" alt="DiGi reklama">
-				</picture>
-				<h1 class="main title ">Мисли глобально</h1>
-				<h4 class="main title text">Di Gi - це диджитал агенція повного циклу, спрямоване на найкращий результат наших клієнтів в маркетингу, продажах та керуванні</h4>
-			</div>
-			<div class="main_carusel">
-				<picture>
-					<source srcset="images/carusel-2-midi.jpg" media="(max-width: 600px)">
-					<source srcset="images/carusel-2-max.jpg" media="(max-width: 1500px)">
-					<source srcset="images/carusel-2-mini.jpg">
-					<img src="images/carusel-2-max.jpg" style="width:1440px;height:668px" alt="DiGi reklama">
-				</picture>
-				<h1 class="main title ">Широкий погляд</h1>
-				<h4 class="main title text">Di Gi - це диджитал агенція повного циклу, спрямоване на найкращий результат наших клієнтів в маркетингу, продажах та керуванні</h4>
-			</div>
-			<div class="main_carusel">
-				<picture>
-					<source srcset="images/carusel-3-midi.jpg" media="(max-width: 600px)">
-					<source srcset="images/carusel-3-max.jpg" media="(max-width: 1500px)">
-					<source srcset="images/carusel-3-mini.jpg">
-					<img src="images/carusel-3-max.jpg" style="width:1440px;height:668px" alt="DiGi reklama">
-				</picture>
-				<h1 class="main title ">Зухвала стратегія</h1>
-				<h4 class="main title text">Di Gi - це диджитал агенція повного циклу, спрямоване на найкращий результат наших клієнтів в маркетингу, продажах та керуванні</h4>
-			</div>
-			<button class="ganeral button">Детально</button>
-			<button class="side-button left">&lt</button>
-			<button class="side-button right">&gt</button>
-			<div class="slide indicator">
-				<span class="dot"></span>
-				<span class="dot"></span>
-				<span class="dot"></span>
-			</div>
-		</section>
-
-		<section class="promo" id="promo">
-			<div class="container">
-				<h4>Ви полюбите нас з першої зустрічі</h4>
-				<h6>Ми надаємо комплексний підхід до просування компанії, продуктів та послуг в цифровій сфері</h6>
-				<button class="general button white">Передзвоніть мені</button>
-			</div>
-		</section>
+			</section>
+		</div>
 
 		<section class="services" id="services">
-			<h2>Сервіс</h2>
-			<hr class="blue" style="width:50px; border-top:10px solid;">
-			<h4>Від ідеї до незабутнього і вимірюваного результату</h4>
-			<h5>Інтеграція бездоганного виробництва, передових технологій та ретельного вимірювання продуктивності</h5>
+			<div class="container services">
+			<div class="wrap">
+				<h2 class="blue_text serv-text">Сервіс</h2>
+				<hr class="blue" style="width:50px; border-top:10px solid;">
+				<h4 class="base_text roboto">Від ідеї до незабутнього і вимірюваного результату</h4>
+				<h5 class="text note_text">Інтеграція бездоганного виробництва, передових технологій та ретельного вимірювання продуктивності</h5>
+			</div>
 			<div class="cards">
 				<article class="card">
 					<img src="images/strategy.svg" alt="strategy logo SVG" style="width:64px; height:64px">
-					<h4>Стратегія</h4>
-					<p class="hover_text">Розробимо унікальну стратегію для вашого бізнесу</p>
+					<h4 class="base_text uppercase">Стратегія</h4>
+					<div class="hover_card">
+					<p class="hover_text note_text">Розробимо унікальну стратегію для вашого бізнесу</p>
 					<a class="button_details" href="https://google.com/search?q=strategy">Докладніше</a>
+					</div>
 				</article>
 
 				<article class="card">
 					<img src="images/analysis.svg" alt="analysis icon SVG" style="width:64px; height:64px"/>
-					<h4>Аналіз</h4>
-					<p class="hover_text">Проаналізуємо стан ринку і конкурентів</p>
+					<h4 class="base_text uppercase">Аналіз</h4>
+					<div class="hover_card">
+					<p class="hover_text note_text">Проаналізуємо стан ринку і конкурентів</p>
 					<a class="button_details" href="https://google.com/search?q=analysis">Докладніше</a>
+					</div>
 				</article>
 
 				<article class="card">
 					<img src="images/soc-media.svg" alt="soc media SVG" style="width:64px; height:64px"/>
-					<h4>Соц мережі</h4>
-					<p class="hover_text">Розробимо політику просування в соцмережах</p>
+					<h4 class="base_text uppercase">Соц мережі</h4>
+					<div class="hover_card">
+					<p class="hover_text note_text">Розробимо політику просування в соцмережах</p>
 					<a class="button_details" href="https://google.com/search?q=social_networks">Докладніше</a>
+					</div>
 				</article>
 
 				<article class="card">
 					<img src="images/development.svg" alt="development logo SVG" style="width:64px; height:64px;">
-					<h4>Розвиток</h4>
-					<p class="hover_text">Продумаємо стратегію сталого розвитку</p>
+					<h4 class="base_text uppercase">Розвиток</h4>
+					<div class="hover_card">
+					<p class="hover_text note_text">Продумаємо стратегію сталого розвитку</p>
 					<a class="button_details" href="https://google.com/search?q=development">Докладніше</a>
+					</div>
 				</article>
 
 				<article class="card">
 					<img src="images/content.svg" alt="content logo SVG" style="width:64px; height:64px">
-					<h4>Контент</h4>
-					<p class="hover_text">Створимо унікальне наповнення</p>
+					<h4 class="base_text uppercase">Контент</h4>
+					<div class="hover_card">
+					<p class="hover_text note_text">Створимо унікальне наповнення</p>
 					<a class="button_details" href="https://google.com/search?q=content">Докладніше</a>
+					</div>
 				</article>
 
 				<article class="card">
 					<img src="images/design.svg" alt="design logo SVG" style="width:64px; height:64px">
-					<h4>Дизайн UX</h4>
-					<p class="hover_text">Створимо унікальний та зручний дизайн</p>
+					<h4 class="base_text uppercase">Дизайн UX</h4>
+					<div class="hover_card">
+					<p class="hover_text note_text">Створимо унікальний та зручний дизайн</p>
 					<a class="button_details" href="https://google.com/search?q=UI/UX">Докладніше</a>
+					</div>
 				</article>
 
 				<article class="card">
 					<img src="images/advertising.svg" alt="ads logo SVG" style="width:64px; height:64px">
-					<h4>Таргетована реклама</h4>
-					<p class="hover_text">Продумаємо використання таргетованої реклами</p>
+					<h4 class="base_text uppercase">Таргетована реклама</h4>
+					<div class="hover_card">
+					<p class="hover_text note_text">Продумаємо використання таргетованої реклами</p>
 					<a class="button_details" href="https://google.com/search?q=ads">Докладніше</a>
+					</div>
 				</article>
 
 				<article class="card">
 					<img src="images/product.svg" alt="product logo SVG" style="width:64px; height:64px">
-					<h4>Продукт</h4>
-					<p class="hover_text">Розробимо стратегію просування продукту</p>
+					<h4 class="base_text uppercase">Продукт</h4>
+					<div class="hover_card">
+					<p class="hover_text note_text">Розробимо стратегію просування продукту</p>
 					<a class="button_details" href="https://google.com/search?q=product">Докладніше</a>
+					</div>
 				</article>
-
+			</div>
 			</div>
 		</section>
 
 		<section class="recent_work" id="recent_work">
+			<h2>Наши проекти</h2>
+			<hr class="white" style="width:50px; border-top:10px solid;">
 			<div class="container">
-				<h2>Наши проекти</h2>
-				<hr class="white" style="width:50px; border-top:10px solid;">
 				<article class="card-conteiner">
 					<img src="images/lalique.jpg" alt="lalique boutique img JPG" style="width:268px; height:239px">
-					<h6>Lalique бутік</h6>
+					<h6 class="blue_text">Lalique бутік</h6>
 					<div class="hovered_area">
 						<a href="https://google.com/search?q=Lalique">
 							<img src="images/logo/info.svg" alt="info logo" style="width:28px; height:28px">
@@ -178,7 +211,7 @@
 
 				<article class="card-conteiner">
 					<img src="images/building.jpg" alt="new building img JPG" style="width:268px; height:239px">
-					<h6>Будівництво будинків</h6>
+					<h6 class="blue_text">Будівництво будинків</h6>
 					<div class="hovered_area">
 						<a href="https://google.com/search?q=build house">
 							<img src="images/logo/info.svg" alt="info logo" style="width:28px; height:28px">
@@ -191,7 +224,7 @@
 
 				<article class="card-conteiner">
 					<img src="images/coffe.jpg" alt="coffe shop img JPG" style="width:268px; height:239px">
-					<h6>Кав'ярня</h6>
+					<h6 class="blue_text">Кав'ярня</h6>
 					<div class="hovered_area">
 						<a href="https://google.com/search?q=coffe">
 							<img src="images/logo/info.svg" alt="info logo" style="width:28px; height:28px">
@@ -204,7 +237,7 @@
 
 				<article class="card-conteiner">
 					<img src="images/tour.jpg" alt="tour img JPG" style="width:268px; height:239px">
-					<h6>Унікальні тури</h6>
+					<h6 class="blue_text">Унікальні тури</h6>
 					<div class="hovered_area">
 						<a href="https://google.com/search?q=tour">
 							<img src="images/logo/info.svg" alt="info logo" style="width:28px; height:28px">
@@ -221,21 +254,23 @@
 		<section class="video_block" id="video_block">
 			<div class="container">
 				<img src="images/video-preview.jpg" alt="our people video preview JPG" style="width:470px; height:430px">
-				<h2>Команда</h2>
-				<hr class="blue" style="width:50px; border-top:10px solid;">
-				<h5>Наша команда - це наша найбільша цінність. Ми працювали, щоб зібрати групу експертів, чиї навики доповнюють один одного. У членів нашої команди різні історії, але ми поділяємо загальну пристрасть до ідеалу. Ми віримо, щоб залишатися професіоналом, необхідно розвиватися, тому ми постійно шукаємо способи, як стати краще в тому, що ми робимо.</h5>
-				<button>Дивитися відео</button>
+				<div class="wrap-1">
+					<h2 class="base_text">Команда</h2>
+					<hr class="blue" style="width:50px; border-top:10px solid;">
+					<h5 class="note_text">Наша команда - це наша найбільша цінність. Ми працювали, щоб зібрати групу експертів, чиї навики доповнюють один одного. У членів нашої команди різні історії, але ми поділяємо загальну пристрасть до ідеалу. Ми віримо, щоб залишатися професіоналом, необхідно розвиватися, тому ми постійно шукаємо способи, як стати краще в тому, що ми робимо.</h5>
+					<button>Дивитися відео</button>
+				</div>
 			</div>
 		</section>
 
 		<section class="latest_news" id="latest_news">
+			<h2 class="base_text">Останні новини</h2>
+			<hr class="blue" style="width:50px; border-top:10px solid;">
 			<div class="container">
-				<h2>Останні новини</h2>
-				<hr class="blue" style="width:50px; border-top:10px solid;">
 				<article class="news">
 					<img src="images/3d-rebrending.jpg" alt="3d brands JPG" style="width:270px; height:444px">
 					<div class="news-text-box">
-						<h6>3D у брендингу</h6>
+						<h6 class="base_text">3D у брендингу</h6>
 						<a href="">
 							<img src="images/logo/info-white.svg" alt="info logo" style="width:28px; height:28px">
 						</a>
@@ -245,7 +280,7 @@
 				<article class="news">
 					<img src="images/ads.jpg" alt="ads JPG" style="width:270px; height:342px">
 					<div class="news-text-box">
-						<h6>Контекстна реклама</h6>
+						<h6 class="base_text">Контекстна реклама</h6>
 						<a href="https://google.com/search?q=ads">
 							<img src="images/logo/info-white.svg" alt="info logo" style="width:28px; height:28px">
 						</a>
@@ -255,7 +290,7 @@
 				<article class="news">
 					<img src="images/graphics.jpg" alt="digital graphics img JPG" style="width:270px; height:383px">
 					<div class="news-text-box">
-						<h6>Графіка</h6>
+						<h6 class="base_text">Графіка</h6>
 						<a href="https://google.com/search?q=graphic">
 							<img src="images/logo/info-white.svg" alt="info logo" style="width:28px; height:28px">
 						</a>
@@ -265,7 +300,7 @@
 				<article class="news">
 					<img src="images/culture.jpg" alt="mass culture img JPG" style="width:270px; height:210px">
 					<div class="news-text-box">
-						<h6>Корпоративна культура</h6>
+						<h6 class="base_text">Корпоративна культура</h6>
 						<a href="https://google.com/search?q=corp.culture">
 							<img src="images/logo/info-white.svg" alt="info logo" style="width:28px; height:28px">
 						</a>
@@ -275,7 +310,7 @@
 				<article class="news">
 					<img src="images/unique-design.jpg" alt="uniq design img JPG" style="width:270px; height:197px">
 					<div class="news-text-box">
-						<h6>Унікальний дизайн</h6>
+						<h6 class="base_text">Унікальний дизайн</h6>
 						<a href="https://google.com/search?q=disign">
 							<img src="images/logo/info-white.svg" alt="info logo" style="width:28px; height:28px">
 						</a>
@@ -285,7 +320,7 @@
 				<article class="news">
 					<img src="images/view.jpg" alt="review from other people img JPG" style="width:270px; height:342px">
 					<div class="news-text-box">
-						<h6>Погляд з боку</h6>
+						<h6 class="base_text">Погляд з боку</h6>
 						<a href="https://google.com/search?q=view">
 							<img src="images/logo/info-white.svg" alt="info logo" style="width:28px; height:28px">
 						</a>
@@ -295,7 +330,7 @@
 				<article class="news">
 					<img src="images/soc-media.jpg" alt="social media img JPG" style="width:270px; height:218px">
 					<div class="news-text-box">
-						<h6>Соц мережі та їх користь</h6>
+						<h6 class="base_text">Соц мережі та їх користь</h6>
 						<a href="https://google.com/search?q=social net">
 							<img src="images/logo/info-white.svg" alt="info logo" style="width:28px; height:28px">
 						</a>
@@ -305,7 +340,7 @@
 				<article class="news">
 					<img src="images/exclusive.jpg" alt="exclusive solution img JPG" style="width:268px; height:436px">
 					<div class="news-text-box">
-						<h6>Ексклюзивність</h6>
+						<h6 class="base_text">Ексклюзивність</h6>
 						<a href="https://google.com/search?q=exclusive">
 							<img src="images/logo/info-white.svg" alt="info logo" style="width:28px; height:28px">
 						</a>
@@ -316,25 +351,25 @@
 
 		<section class="testimonial" id="testimonial">
 			<article class="container quote-carusel">
-				<h1>"</h1>
-				<blockquote>
-					Припиніть продавати. Почніть допомагати
+				<h1 class="blue_text">"</h1>
+				<blockquote class="base_text">
+					Припиніть продавати.<strong> Почніть допомагати</strong>
 				</blockquote>
-				<cite>-Зіг Зіглар</cite>
+				<cite class="base_text">-Зіг Зіглар</cite>
 			</article>
 			<article class="container quote-carusel">
-				<h1>"</h1>
-				<blockquote>
-					Не кажіть в Інтернеті нічого, що ви не холіли б наклеїти на рекламний щит з вашим обличчям
+				<h1 class="blue_text">"</h1>
+				<blockquote class="base_text">
+					<strong>Не кажіть</strong> в Інтернеті нічого, що ви не холіли б наклеїти на рекламний щит з вашим обличчям
 				</blockquote>
-				<cite>-Ерін Бері</cite>
+				<cite class="base_text">-Ерін Бері</cite>
 			</article>
 			<article class="container quote-carusel">
-				<h1>"</h1>
-				<blockquote>
-					Уявіть собі світ, у якому кожна людина на планеті має вільний доступ до суми всіх людських знань
+				<h1 class="blue_text">"</h1>
+				<blockquote class="base_text">
+					Уявіть собі світ, у якому кожна людина на планеті має <strong>вільний доступ</strong> до суми всіх людських знань
 				</blockquote>
-				<cite>-Джиммі Уельс</cite>
+				<cite class="base_text">-Джиммі Уельс</cite>
 			</article>
 			<div class="slide-indicator container">
 				<span class="dot"></span>
@@ -347,7 +382,7 @@
 
 			<div class="container">
 				<div class="logo">Di Gi<br>digital agency</div>
-				<h4>Ми б хотіли почути все про ваш проект.<br> Зв'яжіться з нами</h4>
+				<h4 class="roboto">Ми б хотіли почути все про ваш проект.<br> Зв'яжіться з нами</h4>
 				<ul class="soc-media">
 					<li><a href="http://facebook.com"><img src="images/facebook-logo.svg" alt="facebook link logo"></a></li>
 					<li><a href="http://google.com"><img src="images/google-logo.svg" alt="google link logo"></a></li>
@@ -358,18 +393,18 @@
 				<address class="contacts">
 					<ul>
 						<li>
-							<h4>Контакти</h4>
+							<h4 class="uppercase">Контакти</h4>
 							<ul>
 								<li><a href="tel:+80 555 55 66">+80 555 55 66</a></li>
 								<li><a href="mailto:digi@gmail.com">digi@gmail.com</a></li>
 							</ul>
 						</li>
 						<li>
-							<h4>Адреса</h4>
+							<h4 class="uppercase">Адреса</h4>
 							<a href="http://maps.google.com/search?q=Україна Київ проспект науки 107">Пр. Науки 107<br>Київ/Україна</a>
 						</li>
 						<li>
-							<h4>Допомога</h4>
+							<h4 class="uppercase">Допомога</h4>
 							<ul>
 								<li><a href="#promo">Як з нами зв'язатися?</a></li>
 								<li><a href="#home">Що таке діджитал?</a></li>
@@ -377,9 +412,10 @@
 							</ul>
 						</li>
 						<li>
-							<h4>Меню</h4>
+							<h4 class="uppercase">Меню</h4>
 							<ul>
 								<li><a href="#recent_work">Наші проекти</a></li>
+
 								<li><a href="#video_block">Команда</a></li>
 								<li><a href="#latest_news">Блог</a></li>
 							</ul>
@@ -388,7 +424,7 @@
 			</div>
 
 			<div class="scrollup">
-				<a href="#top">Вгору</a>
+				<a href="#top" >Вгору</a>
 			</div>
 
 		</section>

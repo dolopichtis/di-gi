@@ -1,0 +1,12 @@
+:root {
+	/*  texts:  */
+	--base-font: Roboto Condensed;
+	--base-font-weight: 400;
+	--roboto-font: Roboto;
+	--scnd-font-weight: 500;
+	--p-text-font: Dosis;
+	--p-font-weight: 300;
+	--acent-font-weight: 700;
+	/*  colors:  */
+	--white: white;
+}

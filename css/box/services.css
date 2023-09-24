@@ -1,0 +1,24 @@
+.services {
+	background: white;
+	display: flex;
+	height: 547px;
+	border: 2px solid red;
+}
+hr.blue {
+	color: blue;
+}
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	width: 212px;
+	height: 255px;
+	margin: 5px;
+}
+.hover_card {
+	display: none;
+}
+.card:hover .hover_card {
+	display: block;
+}
