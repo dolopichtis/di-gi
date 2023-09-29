@@ -17,7 +17,7 @@
 	margin: 7px;
 }
 .card-conteiner:hover .hovered_area {
-	display: block;
+	display: flex;
 	position: relative;
 	bottom: 322px;
 	background: rgba(249, 246, 229, 1);
