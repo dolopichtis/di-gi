@@ -1,6 +1,5 @@
 .recent_work {
 	background-image: linear-gradient(rgba(43, 64, 116, 1), rgba(43, 64, 116, 0));
-	height: 668px;
 }
 .recent_work h2 {
 	text-align: center;
@@ -8,4 +7,28 @@
 }
 .recent_work .container {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.hovered_area {
+	display: none;
+}
+.hovered_area a {
+	margin: 7px;
+}
+.card-conteiner:hover .hovered_area {
+	display: block;
+	position: relative;
+	bottom: 322px;
+	background: rgba(249, 246, 229, 1);
+	opacity: .8;
+	height: 218px;
+	width: 242px;
+	align-items: center;
+	justify-content: center;
+}
+.card-conteiner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

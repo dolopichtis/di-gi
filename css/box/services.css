@@ -1,11 +1,7 @@
 .services {
 	background: white;
 	display: flex;
-	height: 547px;
 	border: 2px solid red;
-}
-hr.blue {
-	color: blue;
 }
 .cards {
 	display: flex;
@@ -18,7 +14,28 @@ hr.blue {
 }
 .hover_card {
 	display: none;
+	position: relative;
+	bottom: 4px;
 }
 .card:hover .hover_card {
 	display: block;
+}
+.card>img {
+	position: relative;
+	top: 72px;
+}
+.card:hover img {
+	color: red;
+	top: 20px;
+}
+.card>h4 {
+	position: relative;
+	top: 78px;
+}
+.card:hover h4 {
+	top: 14px;	
+}
+.card:hover {
+	border: 5px solid blue;
+	margin: 0px;
 }

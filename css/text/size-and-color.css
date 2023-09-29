@@ -79,3 +79,11 @@ cite {
 .contacts h4 {
 	font-weight: var(--acent-font-weight);
 }
+hr.blue {
+	width: 100px;
+	border-top: 8px solid blue;
+}
+hr.white {
+	border-top: 8px solid white;
+	width: 100px;
+}
