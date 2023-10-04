@@ -67,6 +67,10 @@ p {
 button, .uppercase, .scrollup {
 	text-transform: uppercase;
 }
+.recent_work h2 {
+	padding-top: 80px;
+	padding-bottom: 24px;
+}
 .contacts h4, button, .news:hover h6 {
 	color:rgba(249, 246, 229, 1);
 }

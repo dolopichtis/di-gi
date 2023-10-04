@@ -1,6 +1,7 @@
 .services {
 	background: white;
 	display: flex;
+	flex-wrap: nowrap; /*mobile: wrap*/
 	border: 2px solid red;
 }
 .cards {
@@ -8,14 +9,15 @@
 	flex-wrap: wrap;
 }
 .card {
+	border: 1px solid red;
 	width: 212px;
 	height: 255px;
 	margin: 5px;
 }
 .hover_card {
 	display: none;
-	position: relative;
-	bottom: 4px;
+	position: absolute;
+	width: inherit;
 }
 .card:hover .hover_card {
 	display: block;
@@ -25,7 +27,6 @@
 	top: 72px;
 }
 .card:hover img {
-	color: red;
 	top: 20px;
 }
 .card>h4 {

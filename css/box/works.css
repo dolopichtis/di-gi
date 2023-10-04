@@ -7,28 +7,33 @@
 }
 .recent_work .container {
 	display: flex;
+	padding: 80px;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
 .hovered_area {
 	display: none;
-}
-.hovered_area a {
-	margin: 7px;
-}
-.card-conteiner:hover .hovered_area {
-	display: flex;
-	position: relative;
-	bottom: 322px;
+	position: absolute;
+	margin: 10px;
 	background: rgba(249, 246, 229, 1);
 	opacity: .8;
 	height: 218px;
 	width: 242px;
 	align-items: center;
 	justify-content: center;
+	border-radius: 5px;
+}
+.hovered_area a {
+	margin: 7px;
+}
+.card-conteiner:hover .hovered_area {
+	display: flex;
 }
 .card-conteiner {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.card-conteiner>img {
+	border-radius: 5px;
 }
