@@ -27,6 +27,7 @@ li.end {
 	justify-content: space-around;
 	list-style-type: none;
 	margin: 0px;
+	padding: 0;
 }
 .bottom {
 	position: relative;
@@ -38,8 +39,9 @@ li.end {
 }
 .footer h4 {
 	padding-top: 100px;
-	padding-bottom: 80px;
+	padding-bottom: 22px;
 	margin: 0px;
+	font-style: normal;
 }
 .contacts li {
 	width: 150px;
@@ -51,4 +53,15 @@ li.end {
 	background: red;
 	text-align: right;
 	height: 42px;
+}
+.footer .container {
+	margin-bottom: 80px;
+}
+ul.no-bullets {
+	padding: 0;
+}
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: white;
+	font-style: normal;
 }

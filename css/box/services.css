@@ -2,7 +2,6 @@
 	background: white;
 	display: flex;
 	flex-wrap: nowrap; /*mobile: wrap*/
-	border: 2px solid red;
 }
 .cards {
 	display: flex;
@@ -12,7 +11,9 @@
 	border: 1px solid red;
 	width: 212px;
 	height: 255px;
-	margin: 5px;
+	padding: 5px;
+	margin: -1px -1px 0 0;
+	text-align: center;
 }
 .hover_card {
 	display: none;
@@ -37,6 +38,6 @@
 	top: 14px;	
 }
 .card:hover {
-	border: 5px solid blue;
-	margin: 0px;
+	outline: 5px solid blue;
+	outline-offset: -8px;
 }

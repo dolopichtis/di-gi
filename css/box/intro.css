@@ -32,11 +32,11 @@
 .left {
 	
 	background: rgba(43, 64, 116, 1);
-	top: 0%;
+	top: 45%;
 }
 .right {
 	background: rgba(249, 246, 229, 1);
-	top: 60%;
+	top: 55%;
 }
 .btn-img {
 	display: inherit;

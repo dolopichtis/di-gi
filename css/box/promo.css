@@ -1,4 +1,13 @@
 .promo {
 	background: rgba(43, 64, 116, 1);
 }
+.promo-content {
+	display: flex;
+	flex-wrap: wrap;/* nowrap for mobile*/
+	justify-content: space-between;
+	align-items: center;
+}
+button {
+	height: 50px;
+}
 
