@@ -1,14 +1,12 @@
-.intro {
+@font-face {
+	font-family: roboto;
+	src: url('../font/Roboto-Regular.ttf');
 }
-.general + .button{
+@font-face {
+	font-family:'roboto-condensed';
+	src: url('../font/RobotoCondensed-Regular.ttf');
 }
-.side + .button {
-}
-.left{
-}
-.right{
-}
-.slide_indicator {
-}
-.dot {
+@font-face {
+	font-family:'dosis';
+	src: url('../font/Dosis-Regular.ttf');
 }

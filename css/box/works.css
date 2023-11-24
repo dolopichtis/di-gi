@@ -1,39 +1,93 @@
-.recent_work {
-	background-image: linear-gradient(rgba(43, 64, 116, 1), rgba(43, 64, 116, 0));
+#works .width-container {
+	flex-direction: column;
 }
-.recent_work h2 {
-	text-align: center;
-	margin: auto;
+#works h1 {
+	margin-top: 20px; 
+	margin-bottom: 0px;
 }
-.recent_work .container {
+#works hr {
+	width: 50px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#works img {
+	border-radius: 5px;
+}
+#works section[role=cardholder] {
 	display: flex;
-	padding: 80px;
+	justify-content: center;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	flex-direction: column;
+	margin-bottom: 80px;
 }
-.hovered_area {
+#works article[role=card] {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+#works article[role=card] > h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#works div[role=hilighter] {
 	display: none;
 	position: absolute;
-	margin: 10px;
+	width: 242px;
+	height: 218px;
+	border-radius: 5px;
 	background: rgba(249, 246, 229, 1);
 	opacity: .8;
-	height: 218px;
-	width: 242px;
+	margin: 10px;
+}
+#works article[role=card]:hover div[role=hilighter] {
+	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 5px;
 }
-.hovered_area a {
+#works div[role=hilighter] > a {
 	margin: 7px;
 }
-.card-conteiner:hover .hovered_area {
-	display: flex;
+@media screen and (min-width: 640px) {
+        #works h1 {
+                margin-top: 40px; 
+        }
+        #works article[role=card] {
+                width: 518px;
+        }
+        #works article[role=card] img, #works article[role=card] picture {
+                width: inherit;
+        }
+        #works hr {
+                width: 100px;
+        }
 }
-.card-conteiner {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+@media screen and (min-width: 768px) {
+        #works h1 {
+                margin-top: 80px; 
+        }
+        #works article[role=card] img, #works article[role=card] picture {
+                width: initial;
+        }
+        #works section[role=cardholder] {
+                flex-direction: row;
+        }
+        #works article[role=card] {
+                margin-right: 11px;
+                margin-left: 11px;
+                width: initial;
+        }
+        #works hr {
+                margin-bottom: 80px;
+        }
 }
-.card-conteiner>img {
-	border-radius: 5px;
+@media screen and (min-width: 1024px) {
+        #works section[role=cardholder] {
+                width: 860px;
+        }
+}
+@media screen and (min-width: 1440px) {
+        #works section[role=cardholder] {
+                flex-wrap: nowrap;
+        }
 }
