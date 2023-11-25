@@ -53,7 +53,7 @@ button {
 .owl-carousel button.active {
         border: solid 2px var(--white);
 }
-arrow-left, .arrow-right {
+.arrow-left, .arrow-right {
         background: var(--white);
 }
 .arrow-right {
