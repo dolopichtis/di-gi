@@ -11,6 +11,11 @@ One can watch the page here: <https://dolopichtis.github.io/di-gi/>
 - To wright the code I learned to use the VIM code editor with some additional tools and plugins.
 - I use the flex-column property with nth-child selector to change the order for organizing "cards" to the Masonry view (<https://tobiasahlin.com/blog/masonry-with-css/>).
 - GIT
+- All CSS properties are divided to files in folders:
+	- The "box" subfolder contains .css files of each page section. Each file is used to define "box" size and positions; Also it contains color.css wich defines to colors of elements. general.css - is used to define general styles;
+	- owl-carousel - is for the library code.
+	- text - is a folder with css files that define text styles.
+	- style.css - is for adding fonts (also it can be used for @import all of needed .css)
 
 # Main work
 

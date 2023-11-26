@@ -44,25 +44,12 @@
 	filter: brightness(0.5);
         height: -webkit-fill-available;
 }
-.owl-crousel {
-	position: relative;
-	display: flex;
-	flex-grow: 1;
-}
 .owl-carousel.owl-loaded {
 	display: flex;
         flex-direction: column;
 }
-.owl-stage-outer {
-	display: flex;
-	flex-grow: 1;
-}
-.owl-stage {
-	display: flex;
-}
 .owl-item {
 	display: flex;
-	flex-grow: 1:
 }
 .owl-nav {
 	position: absolute;
