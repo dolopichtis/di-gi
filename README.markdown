@@ -10,6 +10,7 @@ One can watch the page here: <https://dolopichtis.github.io/di-gi/>
 - I choose to use Semantic CSS practice to achieve the goal - complete webpage styling.
 - To wright the code I learned to use the VIM code editor with some additional tools and plugins.
 - I use the flex-column property with nth-child selector to change the order for organizing "cards" to the Masonry view (<https://tobiasahlin.com/blog/masonry-with-css/>).
+- GIT
 
 # Main work
 
